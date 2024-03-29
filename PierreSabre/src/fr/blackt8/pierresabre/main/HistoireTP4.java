@@ -3,6 +3,7 @@ package fr.blackt8.pierresabre.main;
 import fr.blackt8.pierresabre.characters.Humain;
 import fr.blackt8.pierresabre.characters.Commercant;
 import fr.blackt8.pierresabre.characters.Yakuza;
+import fr.blackt8.pierresabre.characters.Ronin;
 
 public class HistoireTP4 {
 
@@ -10,6 +11,8 @@ public class HistoireTP4 {
 		Humain prof = new Humain("Prof","Kombucha",54);
 		Commercant marco = new Commercant("Marco",15);
 		Yakuza yakulenoir = new Yakuza("Yaku Le Noir", "Warsong", "whisky",30);
+		Ronin roro = new Ronin("Roro","shochu",60);
+		
 		
 		prof.direBonjour();
 		prof.acheter("une boisson",12);
@@ -28,6 +31,11 @@ public class HistoireTP4 {
 		
 		yakulenoir.direBonjour();
 		yakulenoir.extorquer(marco);
+		
+		System.out.println(" ");
+		
+		roro.direBonjour();
+		roro.donner(marco);
 	}
 	
 	
