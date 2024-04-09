@@ -3,6 +3,7 @@ package fr.blackt8.pierresabre.main;
 import fr.blackt8.pierresabre.characters.Commercant;
 import fr.blackt8.pierresabre.characters.Ronin;
 import fr.blackt8.pierresabre.characters.Yakuza;
+import fr.blackt8.pierresabre.characters.Samourai;
 
 public class HistoireTP5 {
 
@@ -12,15 +13,9 @@ public class HistoireTP5 {
 		Commercant kumi = new Commercant("Kumi", 10);
 		Yakuza yaku = new Yakuza("Yaku Le Noir", "whisky", "Warsong", 30);
 		Ronin roro = new Ronin("Roro", "shochu", 60);
+		Samourai akimoto = new Samourai("Akimoto", "Miyamoto", "saké", 80);
 		
-		marco.faireConnaissance(roro);
-		marco.faireConnaissance(yaku);
-		marco.faireConnaissance(chonin);
-		marco.faireConnaissance(kumi);
-		
-		marco.listerConnaissance();
-		roro.listerConnaissance();
-		yaku.listerConnaissance();
+		akimoto.boire("thé");
 		
 
 
