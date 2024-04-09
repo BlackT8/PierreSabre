@@ -2,12 +2,12 @@ package fr.blackt8.pierresabre.characters;
 
 public class Humain {
 	
-	private String name;
+	protected String name;
 	private String boissonFav;
-	private int argent;
+	protected int argent;
 	protected int nbConnaissance = 0; 
 	private int maxConnaissances = 30;
-	private Humain[] connaissances = new Humain[maxConnaissances];
+	protected Humain[] connaissances = new Humain[maxConnaissances];
 	
 	public Humain(String name, String boissonFav, int argent) {
 		super();

@@ -1,4 +1,4 @@
-package fr.blackt8.pierresabre.characters;
+	package fr.blackt8.pierresabre.characters;
 
 public class Commercant extends Humain {
 
